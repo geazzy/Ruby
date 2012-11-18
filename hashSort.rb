@@ -1,12 +1,15 @@
 class Person
   
+# add modulo comparable para incluir os metodos de comparaçao
   include Comparable  
+
   attr_reader :name   
   
   def initialize(name)
     @name = name
   end
-  
+
+# sobre escrito o metodo de comparacao do modulo comparable  
   def <=> other
     self.name <=> other.name
   end
