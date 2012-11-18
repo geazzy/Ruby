@@ -6,10 +6,13 @@ Repositório com alguns códigos em Ruby.
 
 Instalar modulo MySQL:
 sudo gem install ruby-mysql
+
 Ou
+
 sudo gem install mysql
 
-5. ln -s /var/run/mysqld/mysqld.sock /tmp/mysql.sock
+
+1. ln -s /var/run/mysqld/mysqld.sock /tmp/mysql.sock
 Run the above command if you get the error message below.
 sudo / -name mysqld.sock if you don't know where your sock file is.
 
